@@ -16,24 +16,26 @@
         <button onclick="tambahAngka('1')">1</button>
         <button onclick="tambahAngka('2')">2</button>
         <button onclick="tambahAngka('3')">3</button>
-        <button class="operator" onclick="tambahAngka('/')">/</button>
+        <button class="operator" onclick="tambahAngka('+')">+</button>
 
         <button onclick="tambahAngka('4')">4</button>
         <button onclick="tambahAngka('5')">5</button>
         <button onclick="tambahAngka('6')">6</button>
-        <button class="operator" onclick="tambahAngka('*')">*</button>
+        <button class="operator" onclick="tambahAngka('-')">−</button>
 
         <button onclick="tambahAngka('7')">7</button>
         <button onclick="tambahAngka('8')">8</button>
         <button onclick="tambahAngka('9')">9</button>
-        <button class="operator" onclick="tambahAngka('-')">-</button>
+        <button class="operator" onclick="tambahAngka('*')">×</button>
 
-        <button onclick="tambahAngka('0')">0</button>
+        <button class="nol" onclick="tambahAngka('0')">0</button>
         <button onclick="tambahAngka('.')">.</button>
-        <button onclick="hitung()">=</button>
-        <button class="operator" onclick="tambahAngka('+')">+</button>
+        <button class="operator" onclick="hitung()">=</button>
+        <button class="operator" onclick="tambahAngka('/')">÷</button>
 
-        <button onclick="hapus()" class="hapus">C</button>
+        <button onclick="hapus()" class="clear">C</button>
+        <button onclick="hapusKarakter()">⌫</button>
+        <button onclick="tambahAngka('%')">%</button>
       </div>
     </div>
   </div>
